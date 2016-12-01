@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs StartupHeroes's IntelliJ configs into your user configs.
 
-echo "Installing Square IntelliJ configs..."
+echo "Installing StartupHeroes code style configs..."
 
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
@@ -17,17 +17,8 @@ do
     # Install codestyles
     mkdir -p $i/codestyles
     cp -frv "$CONFIGS/codestyles"/* $i/codestyles
-
-    # Install inspections
-    mkdir -p $i/inspection
-    cp -frv "$CONFIGS/inspection"/* $i/inspection
-
-    # Install options ("Exclude from Import and Completion")
-    mkdir -p $i/options
-    cp -frv "$CONFIGS/options"/* $i/options
   fi
 done
-
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'startupheroes'."
