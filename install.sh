@@ -17,8 +17,17 @@ do
     # Install codestyles
     mkdir -p $i/codestyles
     cp -frv "$CONFIGS/codestyles"/* $i/codestyles
+
+    # Install inspections
+    mkdir -p $i/inspection
+    cp -frv "$CONFIGS/inspection"/* $i/inspection
+
+    # Install options ("Exclude from Import and Completion")
+    mkdir -p $i/options
+    cp -frv "$CONFIGS/options"/* $i/options
   fi
 done
+
 echo "Done."
 echo ""
 echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'startupheroes'."
