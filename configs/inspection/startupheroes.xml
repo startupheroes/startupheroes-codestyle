@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.0">
   <option name="myName" value="startupheroes"/>
   <inspection_tool class="CheckStyle" enabled="true" level="Checkstyle" enabled_by_default="true"/>
