@@ -8,7 +8,9 @@ CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 for i in $HOME/Library/Preferences/IntelliJIdea*  \
          $HOME/Library/Preferences/IdeaIC*        \
          $HOME/Library/Preferences/AndroidStudio* \
+         $HOME/Library/Preferences/WebStorm*      \
          $HOME/.IntelliJIdea*/config              \
+         $HOME/.WebStorm*/config                  \
          $HOME/.IdeaIC*/config                    \
          $HOME/.AndroidStudio*/config
 do
@@ -30,4 +32,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'startupheroes'."
+echo "Restart IntelliJ and/or WebStorm and/or AndroidStudio, go to preferences, and apply 'startupheroes'."
