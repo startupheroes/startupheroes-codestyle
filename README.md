@@ -11,3 +11,5 @@ Installation
  * Restart IntelliJ if it's running.
  * Open IntelliJ Project Settings -> Code Styles, change the code style for the
    project to the one you want.
+ * Open IntelliJ Project Settings -> Inspections, change the inspection for the
+   project to the one you want.  
